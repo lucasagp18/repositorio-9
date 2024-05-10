@@ -1,9 +1,27 @@
 *{
     margin: 0  ;
     padding: 0  ;
-    box-sizing: border-box;
+    box-sizing: border-box;  /* reset do css */
+    font-family: fantasy;
 } 
 
+:root{
+    --main-background: #0f172a;
+    --nav-background: #0f172a;   /* definindo as cores */
+    --text-color: #10b981;
+}
 
+body{
+    background-color: var(--main-background); /* cor do body, que no caso é tudo. */
+    color: var(--text-color); /* cor do texto ""Lógica de Programação com HTML,CSS e JS""*/
+    display: flex;  /* fazer o display podeser ser em baixo do outro, etc */
+    flex-direction: column; /* design de coluna, um embaixo do outro */
+    height: 100svh; /* altura do body para ele cobrir toda a aba do computador  */
+    justify-content: center; /* colocar as coisas do meio */
+    align-items: center; /*  */
+}
+nav{
+    background: var(--nav-background); /* cor do nav */
 
+}
 
